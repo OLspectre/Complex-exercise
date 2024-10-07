@@ -35,3 +35,14 @@ figcaption {
     display: flex;
     flex-direction: column;
 }
+
+.has-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.article-box {
+    color: white;
+}
