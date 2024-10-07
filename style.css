@@ -1,0 +1,37 @@
+#wrapper {
+    max-width: 1200px;
+    font-family: Helvetica;
+    line-height: 1.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    display: block;
+}
+
+figure {
+    background-image: url(images/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: norepeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+}
